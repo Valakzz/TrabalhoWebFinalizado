@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    
+    font-family: "Cairo";
+}
+header{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(206, 215, 215);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.FormSearch{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.FormSearch input, button{
+    background-color: rgb(180, 198, 198);
+    border-radius: 50px;
+    text-align: center;
+    color: black;
+}
+.infoCep{
+    text-align: center;
+}
