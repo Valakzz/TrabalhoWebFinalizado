@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    font-family: "Cairo";
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+header{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(206, 215, 215);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.FormSearch{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+ .FormSearch input, button{
+    background-color: rgb(206, 215, 215);
+    border-radius: 50px;
+    text-align: center;
+ }
+
+ .infoCep{
+    text-align: center;
+    display: block;
+    background-color: rgba(206, 215, 215);
+    border-radius: 25px;
+    
+ }
+.Rodape {
+ display: flex;
+ justify-content: center;
+ background-color:rgba(206, 215, 215);
+ font-size: 18px;
+ height: auto;
+align-items: center;
+}
