@@ -10,6 +10,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  background-color: rgb(189, 201, 201);
 }
 
 main {
@@ -40,6 +41,10 @@ header{
     display: block;
     background-color: rgba(206, 215, 215);
     border-radius: 25px;
+    width: 300px;
+     margin: 12px auto;
+     
+    
     
  }
 .Rodape {
@@ -50,3 +55,4 @@ header{
  height: auto;
 align-items: center;
 }
+
